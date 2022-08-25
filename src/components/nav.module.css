@@ -1,0 +1,9 @@
+.nav {
+  padding: 2rem 2rem 0 2rem;
+}
+
+.nav button {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 100%;
+}

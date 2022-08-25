@@ -3,9 +3,12 @@ import Image from 'next/image'
 import '../styles/globals.css'
 import styles from '../styles/Home.module.css'
 
+import Nav from '../components/nav'
+
 function MyApp({ Component, pageProps }) {
   return (
     <>
+      <Nav />
       <Component {...pageProps} />
       <footer className={styles.footer}>
         <a
