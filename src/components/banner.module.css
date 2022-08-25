@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+  height: 90vh;
+  color: var(--white);
+}
+
+.logo {
+  font-weight: normal;
+  color: var(--brown-100);
+  font-family: Delirium;
+  font-size: 100px;
+}
+
+.heroText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  padding-left: 2rem;
+  height: 40%;
+  width: 100%;
+}
+
+.heroText h1 {
+  font-size: 8rem;
+  margin: 0;
+}
+
+.heroText p {
+  font-size: 1.1rem;
+  min-width: 320px;
+}
+
+.heroText button {
+  font-size: 1.1rem;
+  color: var(--white);
+  max-width: 20rem;
+  height: 3rem;
+  border: var(--orange) 1px solid;
+  background-color: transparent;
+  border-radius: 1rem;
+}
+
+.heroText button:hover {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.heroImage {
+  background-image: url('../../public/static/coffee-jj-jordan2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  height: 20rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+/* .stripes {
+  height: 50px;
+  background: repeating-linear-gradient(
+  to right,
+  var(--white),
+  var(--white) 10px,
+  #CCFFFF 10px,
+  #CCFFFF 20px,
+  #FF4500 20px,
+  #FF4500 30px,
+  #FFCB18 30px,
+  #FFCB18 40px
+  );
+  animation: stripes 10s linear infinite;
+  background-size: 200% 200%;
+} */
+
+/* @keyframes stripes {
+  100% {
+    background-position: 100% 100%;
+  }
+} */
